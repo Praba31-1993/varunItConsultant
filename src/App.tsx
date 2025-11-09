@@ -4,13 +4,15 @@ import './App.css';
 import Headermenus from './component/header/headermenus';
 import FoterSection from './component/footer/footerSection';
 import ContactForm from './component/contact/contactForm';
+import OurServices from './component/services/oruServices';
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Headermenus />
+      <OurServices/>
       <ContactForm/>
       <FoterSection/>
 

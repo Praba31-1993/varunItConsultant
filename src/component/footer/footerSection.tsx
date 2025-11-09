@@ -2,7 +2,7 @@ import React from 'react'
 
 function FoterSection() {
     return (
-        <div className='row px-3'>
+        <div className='row px-3 py-5 bg-dark text-light'>
             <div className="col-6 col-md-3 mb-3">
                 <h5 className='mb-3'>Section</h5>
                 <div className="d-flex flex-column gap-3">

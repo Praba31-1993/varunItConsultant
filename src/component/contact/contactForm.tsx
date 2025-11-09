@@ -6,20 +6,31 @@ function ContactForm() {
         <div  >
             <div className="d-flex justify-content-center">
                 <div className="row p-5">
-                    <div className="col-12 col-xl-6 mb-3">
-                        <TextField id="standard-basic" color="info" label="First Name*" variant="standard" fullWidth/>
-
+                    <div className="col-12 text-center mb-3">
+                        <h3>Contact US</h3>
                     </div>
                     <div className="col-12 col-xl-6 mb-3">
-                        <TextField id="standard-basic" color="info" label="Last Name*" variant="standard" fullWidth/>
+                        <TextField id="standard-basic" color="info" label="First Name" variant="standard" fullWidth />
+
+                    </div>
+                    <div className="col-12 col-xl-6 mb-3">
+                        <TextField id="standard-basic" color="info" label="Last Name" variant="standard" fullWidth />
                     </div>
 
-                     <div className="col-12 mb-3">
-                        <TextField id="standard-basic" color="info" label="Email*" variant="standard" fullWidth/>
+                    <div className="col-12 mb-3">
+                        <TextField id="standard-basic" color="info" label="Email" variant="standard" fullWidth />
                     </div>
 
-                     <div className="col-12 mb-3">
-                        <TextField id="standard-basic" color="info" label="Message*" variant="standard" fullWidth/>
+                    <div className="col-12 mb-3">
+                        <TextField id="standard-basic" color="info" label="Message" variant="standard" fullWidth rows={4} multiline />
+                    </div>
+
+                    <div className="col-12 ">
+                        <div className="d-flex justify-content-center">
+                            <button className='btn btn-primary'>Submit</button>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
