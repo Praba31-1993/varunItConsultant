@@ -5,17 +5,30 @@ import Headermenus from './component/header/headermenus';
 import FoterSection from './component/footer/footerSection';
 import ContactForm from './component/contact/contactForm';
 import OurServices from './component/services/oruServices';
+import AboutUs from './component/aboutUs/aboutUs';
 
 
 
 function App() {
   return (
-    <div className="App ">
+     <div className="App px-3">
       <Headermenus />
-      <OurServices/>
-      <ContactForm/>
-      <FoterSection/>
+      
+    
 
+      <div id="about">
+        <AboutUs />
+      </div>
+
+      <div id="services">
+        <OurServices />
+      </div>
+
+      <div id="contact">
+        <ContactForm />
+      </div>
+
+      <FoterSection />
     </div>
   );
 }

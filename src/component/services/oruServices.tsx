@@ -28,7 +28,7 @@ function OurServices() {
     ];
 
     return (
-        <div className=' px-2'>
+        <div className=' px-2' >
             <h1 className='mb-2'>Our Services</h1>
             <div >
                 <p className=''>
