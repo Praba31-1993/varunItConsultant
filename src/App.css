@@ -1,0 +1,7 @@
+.serviceCard {
+  transition: transform 0.5s ease;
+}
+
+.serviceCard:hover {
+  transform: scale(1.05); /* Zoom in */
+}

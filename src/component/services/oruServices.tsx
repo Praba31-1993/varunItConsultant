@@ -6,6 +6,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import cloudComputing from '../../../public/assets/cloudcomputing.jpg'
+import 'animate.css';
+
 function OurServices() {
 
     const trendingTechnologies = [
@@ -29,16 +31,16 @@ function OurServices() {
 
     return (
         <div className=' px-2' >
-            <h1 className='mb-2'>Our Services</h1>
+            <h4 className='my-2'>Our Services</h4>
             <div >
                 <p className=''>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
                 </p>
             </div>
-            <div className="row px-5">
+            <div className="row px-5 ">
                 {trendingTechnologies?.map((list) => (
-                    <div className="col-12 col-md-4 col-xl-4  mb-3">
+                    <div className="col-12 col-md-4 col-xl-4  mb-3 animate__animated animate__zoomIn serviceCard">
                         <Card >
                             <CardMedia
                                 component="img"

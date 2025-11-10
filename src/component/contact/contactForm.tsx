@@ -6,8 +6,8 @@ function ContactForm() {
         <div  >
             <div className="d-flex justify-content-center">
                 <div className="row p-5">
-                    <div className="col-12 text-center mb-3">
-                        <h3>Contact US</h3>
+                    <div className="col-12 text-center my-3">
+                        <h4>Contact US</h4>
                     </div>
                     <div className="col-12 col-xl-6 mb-3">
                         <TextField id="standard-basic" color="info" label="First Name" variant="standard" fullWidth />

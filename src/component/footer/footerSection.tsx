@@ -55,6 +55,7 @@ function FoterSection() {
 
                 </div>
             </div>
+            <p className='text-end'>Designed by Casentra Gloabal</p>
         </div>
     )
 }
