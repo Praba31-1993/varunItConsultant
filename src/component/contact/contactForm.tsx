@@ -3,8 +3,8 @@ import React from 'react'
 
 function ContactForm() {
     return (
-        <div  >
-            <div className="d-flex justify-content-center">
+        <div  className='bg-light'>
+            <div className="d-flex justify-content-center ">
                 <div className="row p-5">
                     <div className="col-12 text-center my-3">
                         <h4>Contact US</h4>

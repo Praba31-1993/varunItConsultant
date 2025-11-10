@@ -11,7 +11,7 @@ import AboutUs from './component/aboutUs/aboutUs';
 
 function App() {
   return (
-     <div className="App px-3">
+     <div className="App px-3" style={{background:'#80808012'}}>
       <Headermenus />
       
     

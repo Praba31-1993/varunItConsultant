@@ -44,7 +44,7 @@ function FoterSection() {
                 </div>
             </div>
             <hr />
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between mb-3">
                 <p>© 2021 Company, Inc. All rights reserved.</p>
                 <div className='d-flex gap-3 px-3'>
                     <i className="bi bi-twitter"></i>
