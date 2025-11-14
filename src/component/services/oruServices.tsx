@@ -12,32 +12,24 @@ function OurServices() {
 
     const trendingTechnologies = [
         {
-            name: "Cloud Computing",
-            description: "Cloud computing provides on-demand access to servers, storage, and applications over the internet without local infrastructure."
+            name: "Digital Marketing Strategy",
+            description: "We don't just market; we architect. We design a complete blueprint for your digital growth, from data-driven SEO and social media to content that builds authority."
         },
         {
-            name: "Digital Marketing",
-            description: "Digital marketing uses online platforms and digital channels to promote products, engage audiences, and drive sales."
+            name: "Personal Branding",
+            description: " For founders, executives, and experts. We engineer your personal brand with the same care we'd use for a high-stakes industrial project. We build your legacy."
         },
         {
-            name: "SEO",
-            description: "SEO is the process of optimizing websites to rank higher on search engines, improving visibility and organic traffic."
+            name: "Our Engineering & Fabrication Legacy",
+            description: " We are proudly backed by Sri PachaiAmman Engineering. Our foundation is 35+ years of delivering world-class fabrication and engineering solutions. This precision is our promise."
         },
-        {
-            name: "Artificial Intelligence (AI)",
-            description: "AI involves creating systems that can learn, reason, and make decisions, enhancing automation and data-driven insights."
-        }
+
     ];
 
     return (
         <div className=' px-2' >
             <h4 className='my-2'>Our Services</h4>
-            <div >
-                <p className=''>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
-                </p>
-            </div>
             <div className="row px-5 ">
                 {trendingTechnologies?.map((list) => (
                     <div className="col-12 col-md-4 col-xl-4  mb-3 animate__animated animate__zoomIn serviceCard">
@@ -45,8 +37,8 @@ function OurServices() {
                             <CardMedia
                                 component="img"
                                 alt="green iguana"
-                                height="140"
-                                image={list?.name === "Cloud Computing" ? "/assets/cloudcomputing.jpg" : list?.name === "Digital Marketing" ? "/assets/digitalmarketing.jpg" : list?.name === "SEO" ? "/assets/SEO.jpg" : list?.name === "Artificial Intelligence (AI)" ? "/assets/AI.jpg":''}
+                                height="250"
+                                image={list?.name === "Personal Branding" ? "/assets/branding.jpg" : list?.name === "Digital Marketing Strategy" ? "/assets/digitalmarketing.jpg" : list?.name === "Our Engineering & Fabrication Legacy" ? "/assets/gear.jpg" : ''}
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -56,9 +48,7 @@ function OurServices() {
                                     {list?.description}
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                                <Button size="small">Learn More</Button>
-                            </CardActions>
+
                         </Card>
                     </div>))}
             </div>

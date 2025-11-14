@@ -23,11 +23,11 @@ function Headermenus() {
         {/* Desktop Menu */}
         <div className="Menus d-none d-md-block">
           <div className="d-flex gap-5 p-0 align-items-center">
-            {/* <p className="m-0" onClick={() => handleScroll('home')}>Home</p> */}
+            <p className="m-0" onClick={() => handleScroll('home')}>Home</p>
             <p className="m-0" onClick={() => handleScroll('about')}>About Us</p>
             <p className="m-0" onClick={() => handleScroll('services')}>Our Services</p>
-            {/* <p className="m-0" onClick={() => handleScroll('blog')}>Blog</p> */}
-            <p className="m-0" onClick={() => handleScroll('contact')}>Contact</p>
+            <p className="m-0" onClick={() => handleScroll('blog')}>Why Choose Us</p>
+            <p className="m-0" onClick={() => handleScroll('contact')}>Contact Us</p>
           </div>
         </div>
 

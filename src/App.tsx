@@ -5,17 +5,20 @@ import Headermenus from './component/header/headermenus';
 import FoterSection from './component/footer/footerSection';
 import ContactForm from './component/contact/contactForm';
 import OurServices from './component/services/oruServices';
-import AboutUs from './component/aboutUs/aboutUs';
+import AboutUs from './component/aboutPage/aboutUs';
+import Home from './component/homePage/home';
 
 
 
 function App() {
   return (
-     <div className="App px-3" style={{background:'#80808012'}}>
+    <div className="App px-3" style={{ background: '#80808012' }}>
       <Headermenus />
-      
-    
 
+
+      <div id="about">
+        <Home />
+      </div>
       <div id="about">
         <AboutUs />
       </div>
